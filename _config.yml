@@ -28,9 +28,11 @@ twitter_username:
 github_username: kdomke 
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+
+minimal_mistakes_skin: "air"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
