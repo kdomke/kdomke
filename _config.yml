@@ -28,10 +28,12 @@ twitter_username:
 github_username: kdomke 
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "air"
 
 # Exclude from processing.
