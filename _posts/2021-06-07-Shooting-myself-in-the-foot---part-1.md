@@ -59,6 +59,7 @@ Insert about 1h of searching through sshd logs, unplugging the key, replugging
 the key, double checking the authorized_keys file (Why? It *still* works with
 plink!) to absolutly no avail. Until I finally get the idea of looking at the
 debug log of putty (After filtering all the raw package contents):
+
 ```
 Event Log: Reading key file "C:\Users\userid\Documents\key.ppk"
 Event Log: Pageant is running. Requesting keys.
@@ -67,6 +68,7 @@ Event Log: Configured key file not in Pageant
 Event Log: Offered public key
 Event Log: Server refused our key
 ```
+
 "Configured key file not in Pageant". A look at the session configuration
 confirmed my suspicion: The key was specified in the session. And apparently
 Putty ignores all other keys, when told to use a specific one (which is
@@ -75,7 +77,7 @@ understandable)
 The real "Shooting yourself in the foot" part is: **I had the EXACT SAME PROBLEM**
 a day before that. On a different machine. With the same key.
 
-Written down, so *hopefully* I will not have the same problem again.
+Written down, so *hopefully* I will not have the same problem again. Ever.
 
 [1]: https://www.yubico.com/de/product/yubikey-5-nfc/
 [2]: https://developers.yubico.com/PGP/SSH_authentication/Windows.html
