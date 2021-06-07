@@ -47,6 +47,8 @@ then
 	title:      "${TITLE}"
 	date:       ${POSTDATE}
 	categories: 
+	tags:       
+	published:  false
 	---
 	EOF
 else

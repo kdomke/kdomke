@@ -36,9 +36,9 @@ if (-not(Test-Path -PathType Leaf -Path $FullPath)) {
     $InitialContent += 'title:      "' + $WithTitle + "`"`n"
     $InitialContent += 'date:       ' + $PostDate + "`n"
     $InitialContent += "categories: `n"
+    $InitialContent += "tags:       `n"
+    $InitialContent += "published:  false`n"
     $InitialContent += "---`n"
-
-    $InitialContent += '# ' + $WithTitle + "" #`n"
 
     try {
         New-Item -Path $FullPath -Force
