@@ -28,7 +28,12 @@ twitter_username:
 github_username: kdomke 
 
 # Build settings
-theme: minima
+theme: jekyll-theme-minimal
+
+logo:
+show_downloads: false
+google_analytics:
+
 plugins:
   - jekyll-feed
 
