@@ -1,0 +1,29 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Create new Post",
+            "windows":{
+                "command": "${workspaceFolder}/.vscode/newPost.ps1",    
+                "args": ["-WithTitle","${input:title}"],
+            },
+            "command": "${workspaceFolder}/.vscode/newPost.sh",
+            "type": "shell",
+            "args": ["-t","${input:title}"],
+            "problemMatcher": [
+                "$tsc"
+            ],
+            "presentation": {
+                "reveal": "silent"
+            },
+            "group": "build",
+        }
+    ],
+    "inputs": [
+        {
+            "id": "title",
+            "description": "Titel des Posts",
+            "type": "promptString"
+        }
+    ]
+}
