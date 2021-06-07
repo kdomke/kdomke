@@ -7,7 +7,7 @@
         "editor.quickSuggestions": false,
         "editor.lineNumbers": "off",
         "editor.fontSize": 16,
-
+        "rewrap.autoWrap.enabled": true
     },
 
 }
