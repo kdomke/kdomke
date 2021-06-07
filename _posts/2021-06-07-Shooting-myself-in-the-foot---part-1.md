@@ -6,12 +6,11 @@ categories: admin
 tags:       yubikey ssh putty
 published:  true
 ---
-# Shooting myself in the foot - part 1
-
 I got me a [Yubikey][1]. One of those neat security tokens to make our live as 
 admins more secure and easier. And I really like it. The hardware looks sturdy
 and it is the first USB stick like thing I trust to survive on a keyring any
 amount of time. 
+<!--more-->
 
 One of my main probles I wanted to solve was the secure handling of ssh keys for
 my servers. I am using multiple devices to access them, and it is not easy to

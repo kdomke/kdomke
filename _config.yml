@@ -45,12 +45,13 @@ include:
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts" # previously `post` in Jekyll 2.2.
+      path: "" 
+      type: "posts"
     values:
       layout: "post"
       published: false
-      author: "kristian"
+      author: "Kristian"
+      excerpt_separator: <!--more-->
   - scope:
       path: ""
       type: "pages"
