@@ -30,12 +30,29 @@ github_username: kdomke
 # Build settings
 theme: jekyll-theme-minimal
 
-logo: ""
+logo: /assets/img/bdd-logo.png
 show_downloads: false
 google_analytics: ""
 
 plugins:
   - jekyll-feed
+
+include:
+  - _pages
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      published: false
+      author: "kristian"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
