@@ -22,7 +22,7 @@ param (
 $Pattern  = '[^0-9a-zA-ZäöüÄÖÜ_]'
 $PostDate = Get-Date -UFormat "%Y-%m-%d %H:%M:%S %Z00"
 
-$CleanTitle = $WithTitle.Replace($Pattern,'-')
+$CleanTitle = $WithTitle -replace $Pattern,'-'
 
 $FileName = Get-Date -UFormat $DateFormat
 $FileName = $FileName + "-" + $CleanTitle + ".md"
