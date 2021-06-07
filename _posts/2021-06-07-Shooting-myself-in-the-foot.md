@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Shooting myself in the foot - part 1"
+title:      "Shooting myself in the foot"
 date:       2021-06-07 16:10:05 +0200
 categories: admin
 tags:       yubikey ssh putty
@@ -43,7 +43,7 @@ this problem and averything was fine. (FYI: This is not the *shooting in the
 foot* part.)
 
 I set everything up, got my ssh public key as well (`gpg --export-ssh-key
-<keyid>` is surprisingly hard to goolge...) and set it up with one of my server.
+\<keyid\>` is surprisingly hard to goolge...) and set it up with one of my server.
 Usual procedure when playing around with ssh login options: 
 * Create a backup user.
 * Set everything up for the backup user.
