@@ -1,0 +1,13 @@
+{
+    "editor.rulers": [80, 72],
+    
+    "[markdown]": {
+
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "editor.lineNumbers": "off",
+        "editor.fontSize": 16,
+
+    },
+
+}
