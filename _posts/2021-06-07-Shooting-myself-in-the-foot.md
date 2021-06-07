@@ -42,8 +42,8 @@ to be used with the yubikey. A small shift in the windows %PATH% variable solved
 this problem and averything was fine. (FYI: This is not the *shooting in the
 foot* part.)
 
-I set everything up, got my ssh public key as well (`gpg --export-ssh-key
-\<keyid\>` is surprisingly hard to goolge...) and set it up with one of my server.
+I set everything up, got my ssh public key as well (` gpg --export-ssh-key
+keyid ` is surprisingly hard to goolge...) and set it up with one of my server.
 Usual procedure when playing around with ssh login options: 
 * Create a backup user.
 * Set everything up for the backup user.
