@@ -1,0 +1,7 @@
+toc:
+  - title: Inhaltliches
+    subfolderitems:
+        - page: about me
+          url:  /about.html
+        - page: imprint
+          url:  /imprint.html

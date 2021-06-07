@@ -33,6 +33,9 @@ theme: jekyll-theme-minimal
 logo: /assets/img/bdd-logo.png
 show_downloads: false
 google_analytics: ""
+is_user_page: false
+is_project_page: false
+show_menu: true
 
 plugins:
   - jekyll-feed

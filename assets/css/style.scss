@@ -5,6 +5,39 @@
 
 body {
     background-color: rgb(220,220,220);
+
+    header {
+	        h3.menu {
+		    padding-bottom: 0px;
+		    margin-top:     20px;
+		    margin-bottom:  0px;
+	        }
+		ul.menu
+		{
+
+		    list-style-type:     disc;
+		    list-style-position: inside;
+		    height:	         auto;
+		    background-color:    transparent;
+		    border:	         none;
+
+		    li
+		    {
+			float:  none;
+			border: none;
+			height: auto;
+			width:  auto;
+
+			a
+			{
+			    display:     inline;
+			    font-size:   14px;
+			    line-height: 1.5;
+			    padding:     0px;
+		        }
+		    }
+		}
+	}
     dl {
         dd {
 	    margin-inline-start: 0px;
