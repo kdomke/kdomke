@@ -2,7 +2,7 @@
 layout:     post
 title:      "Shooting myself in the foot - part 1"
 date:       2021-06-07 16:10:05 +0200
-categories: 
+categories: admin
 tags:       yubikey ssh putty
 published:  true
 ---
